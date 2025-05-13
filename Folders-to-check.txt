@@ -1,0 +1,66 @@
+\\E9INTEGRATIONS\Data_Import\CBMulti\KR_order_import\processed
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\Jack1t\NEXT\Done
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\Jack1t\Order_Import\Processed
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\order_import\processed
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\Sweet William\Joules\Processed
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\Sweet William\NotHS\Processed
+\\E9INTEGRATIONS\Data_Import\Paignton_Multi\Sweet William\NotHS_OLD\Processed
+\\E9INTEGRATIONS\Data_Import\RJG\Order_Import\Done
+\\E9INTEGRATIONS\Data_Import\RJG\QVC_Order_Import\Processed
+\\E9INTEGRATIONS\Data_Import\RJG\XML_Import\Done
+\\E9INTEGRATIONS\Data_Import\Viacom\Order_Import\Done
+\\E9INTEGRATIONS\Data_Import\Viacom\Order_Import_BlackRock\Done
+\\E9INTEGRATIONS\Data_Import\Viacom\Order_Import_Google\Done
+\\E9INTEGRATIONS\Data_Import\Wrangaton_Multi\RSPCA_Orders\processed
+\\E9INTEGRATIONS\Data_Export\Paignton_Multi\Jack1t\NEXT\Acknowledgement\Done
+\\Elucid9\Elucid\Data_Import\Abbott\order_import\processed
+\\Elucid9\Elucid\Data_Import\Abbott\Replacement_import\Done
+\\Elucid9\Elucid\Data_Import\Abbott\Replacement_import\Processed
+\\Elucid9\Elucid\Data_Import\Biscuit\CV\BJS\Processed
+\\Elucid9\Elucid\Data_Import\Biscuit\MS\BJS\Processed
+\\Elucid9\Elucid\Data_Import\Biscuit\MS\order_import\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\Argos\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\bulk_order_import\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\etsy\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\Groupon\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\linnworks\order_xmls\Done
+\\Elucid9\Elucid\Data_Import\Carat_Shop\linnworks\processed
+\\Elucid9\Elucid\Data_Import\Carat_Shop\ORD\IN\PROCESSED
+\\Elucid9\Elucid\Data_Import\CBMulti\order_import\done
+\\Elucid9\Elucid\Data_Import\DeAgostini\order_import\done
+\\Elucid9\Elucid\Data_Import\Intersoft\Done
+\\Elucid9\Elucid\Data_Import\iRocker\PVS_Despatches\done
+\\Elucid9\Elucid\Data_Import\MuckMunchers\order_import_IRISH\Done
+\\Elucid9\Elucid\Data_Import\Muddy\order_import\done
+\\Elucid9\Elucid\Data_Import\Muddy\order_import\processed
+\\Elucid9\Elucid\Data_Import\Navigator\order_import\done
+\\Elucid9\Elucid\Data_Import\Navigator\order_import\processed
+\\Elucid9\Elucid\Data_Import\Otter\DUK_OrderImport\Done
+\\Elucid9\Elucid\Data_Import\Otter\DUK_OrderImport\Processed
+\\Elucid9\Elucid\Data_Import\Otter\RSPCA_Orders\processed
+\\Elucid9\Elucid\Data_Import\Paignton_Multi\Jack1t\Order_Import\Processed
+\\Elucid9\Elucid\Data_Import\Paignton_Multi\order_import\done
+\\Elucid9\Elucid\Data_Import\Paignton_Multi\Sweet William - DO NOT USE\Joules - DO NOT USE\Processed
+\\Elucid9\Elucid\Data_Import\Paignton_Multi\Sweet William - DO NOT USE\NotHS - DO NOT USE\Processed
+\\Elucid9\Elucid\Data_Import\Qwerkity\menkind\processed
+\\Elucid9\Elucid\Data_Import\Qwerkity\ORD\IN\PROCESSED
+\\Elucid9\Elucid\Data_Import\RJG\Old\QVC_Park\processed
+\\Elucid9\Elucid\Data_Import\RJG\order_import\processed
+\\Elucid9\Elucid\Data_Import\RSPCA_Branch\ORD\IN\PROCESSED
+\\Elucid9\Elucid\Data_Import\Secret\ORD\IN\PROCESSED
+\\Elucid9\Elucid\Data_Import\Secret\order_import\processed
+\\Elucid9\Elucid\Data_Import\Sophie_Conran\Customer Import\Done
+\\Elucid9\Elucid\Data_Import\Wrangaton_Multi\Agora_Spares\done
+\\Elucid9\Elucid\Data_Import\Wrangaton_Multi\Agora_Spares\processed
+\\Elucid9\Elucid\Data_Import\Wrangaton_Multi\order_import\done
+\\Elucid9\Elucid\Data_Import\Wrangaton_Multi\order_import\processed
+\\Elucid9\Elucid\Data_Import\WWE\order_import\done
+\\Elucid9\Elucid\Data_Export\Daytimers\Acco_Web_Import\Refunds\Processed
+\\Elucid9\Elucid\Data_Export\Daytimers\data_import\done
+\\Elucid9\Elucid\Data_Export\Navigator\FTP_DESP\Done
+\\Elucid9\Elucid\Data_Export\Otter\stock_file\Done
+\\Elucid9\Elucid\Data_Export\RJG\LivePlants\ALLENSMORE\processed
+\\Elucid9\Elucid\Data_Export\RJG\LivePlants\NEWLEAF\processed
+\\Elucid9\Elucid\Data_Export\RJG\Print\processed
+\\Elucid9\Elucid\Data_Export\SRaven\DD_Desp_Notes\Muntons\Processed
+\\Elucid9\Elucid\Data_Export\SRaven\Rookery_Print_Output\Processed

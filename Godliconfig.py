@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import pyodbc
 import pathlib
+import os
 
 class CleanupConfigApp:
     def __init__(self, root):
@@ -109,6 +110,7 @@ class RecordWindow:
     def __init__(self, app, title, record=None):
         self.app = app
         self.record = record
+        self.user = os.getenv("username")
 
         self.win = tk.Toplevel()
         self.win.title(title)
@@ -146,7 +148,7 @@ class RecordWindow:
         tk.Button(self.win, text=save_btn_text, command=self.save_record).grid(row=len(labels), column=0, columnspan=2, pady=10)
 
     def save_record(self):
-        # Reset field backgrounds
+        
         for field, entry in self.entries.items():
             if isinstance(entry, tk.Entry):
                 entry.config(bg="white")
@@ -160,7 +162,7 @@ class RecordWindow:
             val = self.entries[field].get().strip()
             if not val:
                 errors.append(field)
-                self.entries[field].config(bg="#ffcccc")  # light red background
+                self.entries[field].config(bg="#ffcccc")
 
         # Additional checks
         try:
@@ -191,7 +193,7 @@ class RecordWindow:
             errors.append("FolderPath")
             self.entries["FolderPath"].config(bg="#ffcccc")
 
-        # Optional: does path exist?
+        # Does path exist?
         if not p.exists():
             errors.append("FolderPath (does not exist)")
             self.entries["FolderPath"].config(bg="#ffcccc")
@@ -213,21 +215,19 @@ class RecordWindow:
                 self.entries["FileExtensions"].get(),
                 self.entries["ExcludedFilenames"].get(),
                 self.entries["Client"].get(),
-                self.vars["Enabled"].get()
+                self.vars["Enabled"].get(),
+                self.user
             )
 
             if self.record:
                 # Update existing
                 cursor.execute("""
-                    UPDATE Cleanup_Config
-                    SET FolderPath=?, RetentionDays=?, FileExtensions=?, ExcludedFilenames=?, Client=?, Enabled=?
-                    WHERE ID=?
+                    EXEC Godliness_Update ?,?,?,?,?,?,?,?
                 """, values + (self.record[0],))
             else:
                 # Insert new
                 cursor.execute("""
-                    INSERT INTO Cleanup_Config (FolderPath, RetentionDays, FileExtensions, ExcludedFilenames, Client, Enabled)
-                    VALUES (?, ?, ?, ?, ?, ?)
+                    EXEC Godliness_Insert ?,?,?,?,?,?,?
                 """, values)
 
             conn.commit()
