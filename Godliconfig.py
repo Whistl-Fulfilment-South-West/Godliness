@@ -195,7 +195,7 @@ class RecordWindow:
 
         # Does path exist?
         if not p.exists():
-            errors.append("FolderPath (does not exist)")
+            errors.append("FolderPath does not exist")
             self.entries["FolderPath"].config(bg="#ffcccc")
 
         if errors:
