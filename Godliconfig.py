@@ -189,7 +189,7 @@ class RecordWindow:
             self.entries["FolderPath"].config(bg="#ffcccc")
 
         # Too shallow: UNC root or single folder (e.g. \\server or \\server\share)
-        if p.is_absolute() and len(p.parts) <= 3:
+        if p.is_absolute() and len(p.parts) <= 2:
             errors.append("FolderPath")
             self.entries["FolderPath"].config(bg="#ffcccc")
 
